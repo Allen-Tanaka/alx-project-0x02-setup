@@ -2,7 +2,8 @@ import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import Header from '../components/layout/Header';
 import PostCard from '../components/common/PostCard';
-import { PostProps } from '../interfaces';
+import { type PostProps } from '@/interfaces';
+
 
 export default function Posts() {
   const [posts, setPosts] = useState<PostProps[]>([]);

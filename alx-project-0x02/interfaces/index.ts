@@ -27,3 +27,9 @@ export interface UserProps {
   };
 }
 
+export interface PostModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  onAddPost: (title: string, content: string) => void;
+}
+

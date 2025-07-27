@@ -1,4 +1,4 @@
-import { PostProps } from '../../interfaces';
+import { type PostProps } from '@/interfaces';
 
 export default function PostCard({ title, body, userId }: PostProps) {
   return (
