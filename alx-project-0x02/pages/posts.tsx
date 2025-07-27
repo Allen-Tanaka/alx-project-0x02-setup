@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
-import Header from '../components/layout/Header';
-import PostCard from '../components/common/PostCard';
+import Header from '@/components/layout/Header';
+import PostCard from '@/components/common/PostCard';
 import { type PostProps } from '@/interfaces';
 
 
